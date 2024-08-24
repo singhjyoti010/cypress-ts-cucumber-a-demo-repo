@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["es5", "dom"],
+      "types": ["cypress", "node"],
+      "moduleResolution": "node16",
+      "module": "Node16",
+      "esModuleInterop": true,
+      // "paths": {
+      //   "@badeball/cypress-cucumber-preprocessor/*": ["./node_modules/@badeball/cypress-cucumber-preprocessor/dist/subpath-entrypoints/*"]
+      // }
+    },
+    "include": ["**/*.ts", "**/*.feature"]
+  }
